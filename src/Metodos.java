@@ -57,19 +57,19 @@ public class Metodos {
              if(lista.get(0)==listarandom.get(i)){
                  x++;
              }
-             else if(lista.get(1)==listarandom.get(i)){
+             if(lista.get(1)==listarandom.get(i)){
                  x++;
              }
-             else if(lista.get(2)==listarandom.get(i)){
+             if(lista.get(2)==listarandom.get(i)){
                  x++;
              }
-             else if(lista.get(3)==listarandom.get(i)){
+             if(lista.get(3)==listarandom.get(i)){
                  x++;
              }
-             else if(lista.get(4)==listarandom.get(i)){
+             if(lista.get(4)==listarandom.get(i)){
                  x++;
              }
-             else if(lista.get(5)==listarandom.get(i)){
+             if(lista.get(5)==listarandom.get(i)){
                  x++;
              }
              
