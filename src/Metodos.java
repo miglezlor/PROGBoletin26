@@ -52,10 +52,34 @@ public class Metodos {
      
 
      public void comparar(){
-         if(lista.get(0)==listarandom.get(0)&lista.get(1)==listarandom.get(1)&lista.get(2)==listarandom.get(2)&lista.get(3)==listarandom.get(3)&lista.get(4)==listarandom.get(4)&lista.get(5)==listarandom.get(5)){
-             JOptionPane.showMessageDialog(null, "GANASTE");
+         int x=0;
+         for(int i=0;i<6;i++){
+             if(lista.get(0)==listarandom.get(i)){
+                 x++;
+             }
+             else if(lista.get(1)==listarandom.get(i)){
+                 x++;
+             }
+             else if(lista.get(2)==listarandom.get(i)){
+                 x++;
+             }
+             else if(lista.get(3)==listarandom.get(i)){
+                 x++;
+             }
+             else if(lista.get(4)==listarandom.get(i)){
+                 x++;
+             }
+             else if(lista.get(5)==listarandom.get(i)){
+                 x++;
+             }
+             
+         }
+         if(x==0){
+             JOptionPane.showMessageDialog(null, "PERDISTE");
          }
          else
-             JOptionPane.showMessageDialog(null, "PERDISTE");
+             JOptionPane.showMessageDialog(null, "TIENES "+x+" ACIERTOS");
+         
+         
      }
 }
